@@ -12,7 +12,7 @@ pipeline {
         stage('Compile') {
             steps {
                 echo 'Compiling Java program'
-                bat 'javac HelloWorld.java'
+                bat 'javac Helloworld.java'
             }
         }
 
